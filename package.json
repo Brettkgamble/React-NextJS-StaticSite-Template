@@ -1,0 +1,75 @@
+{
+  "name": "trainerconnectfrontend",
+  "version": "0.1.0",
+  "description": "A matching service between clients seeking personal trainers and personal trainers",
+  "main": "index.js",
+  "engines": {
+    "node": "^14.0.0"
+  },
+  "private": true,
+  "author": "Brett Gamble",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Brettkgamble/trainerconnectbackend/issues"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.21.1",
+    "classnames": "^2.2.6",
+    "compression": "^1.7.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "next": "^10.0.6",
+    "next-compose-plugins": "^2.2.1",
+    "next-images": "^1.7.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-dom": "^17.0.1",
+    "react-favicon": "^0.0.18",
+    "react-redux": "^7.2.2",
+    "react-scripts": "4.0.2",
+    "react-swipeable-views": "^0.13.9",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-promise": "^0.6.0",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "dev": "nodemon -w server/server.js server/server.js",
+    "start": "NODE_ENV=production node server/server.js",
+    "build": "next build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Brettkgamble/trainerconnectbackend"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
